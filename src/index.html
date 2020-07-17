@@ -32,7 +32,29 @@
             voluptas, voluptate optio reprehenderit iusto molestias assumenda ut
             beatae. Cupiditate.
           </p>
+          <a
+            href="#learn-more"
+            data-toggle="collapse"
+            class="btn btn-primary btn-lg"
+            >Learn More</a
+          >
+          <div class="collapse mt-3" id="learn-more">
+            <h3>Hidden Content!</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              voluptatum ipsam maxime et nulla voluptate tempore amet distinctio
+              necessitatibus, ipsum accusamus. Explicabo necessitatibus maxime
+              voluptates dicta odit quis quas voluptatem!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+              quisquam laudantium, alias saepe provident possimus quis
+              voluptatum fuga aliquid velit nulla aperiam quo doloribus numquam
+              delectus nemo pariatur quasi ut.
+            </p>
+          </div>
         </div>
+
         <div class="col-md-4 small">
           <div class="alert alert-warning">
             We recently updated our entire site. Check it out!
@@ -43,9 +65,57 @@
             voluptas, voluptate optio reprehenderit iusto molestias assumenda ut
             beatae. Cupiditate.
           </p>
+          <button
+            data-toggle="modal"
+            data-target="#contact-us"
+            class="btn btn-outline-success"
+          >
+            Contact Us
+          </button>
+          <div
+            class="modal fade"
+            id="contact-us"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Modal title
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Hello World!
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <footer class="border-top my-5 py-4">
+      <p class="small text-muted text-center">&copy; 2020 Our Site</p>
+    </footer>
 
     <script src="./main.js"></script>
   </body>
