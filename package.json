@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap5-parcel",
+  "version": "1.0.0",
+  "description": "Bootstrap5 with parcel",
+  "private": true,
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir docs --public-url /bootstrap5-parcel --no-content-hash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekseyvlivanov/bootstrap5-parcel.git"
+  },
+  "author": "Aleksey Ivanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alekseyvlivanov/bootstrap5-parcel/issues"
+  },
+  "homepage": "https://github.com/alekseyvlivanov/bootstrap5-parcel#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1"
+  }
+}
